@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* shared style */
+
+body {
+    background-color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #008ed6;
+    color: white;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+header .logo span {
+    color:black;
+}
+
+header .search-bar {
+    display: flex;
+    flex: 1;
+    margin: 0 30px;
+}
+
+header .search-bar input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+header .search-bar button {
+    padding: 8px 12px;
+    border: none;
+    background: #005b88;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    gap: 5px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    padding: 10px 40px;
+    font-size: 14px;
+    color: gray;
+}
+
+/* Category Tags */
+.category-tags {
+    padding: 10px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.category-tags button {
+    padding: 6px 14px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Layout */
+main {
+    display: flex;
+    padding: 20px 40px;
+}
+
+/* Filters */
+.filters {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.filters h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.filters label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* Product Grid */
+.product-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background: white;
+}
+
+.product-card img {
+    width: 85%;
+    height: auto;
+}
+
+.product-card .price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-card h4 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.product-card .model {
+    font-size: 12px;
+    color: gray;
+}
+
+.buy-btn {
+    margin-top: 10px;
+    padding: 8px 14px;
+    background: #008ed6;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+    gap: 10px;
+}
+
+.pagination button {
+    padding: 8px 14px;
+    background: #008ed6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    background: #008ed6;
+    color: white;
+    margin-top: 20px;
+}
+.footer-col h3,h4{
+    padding-bottom: 15px;
+}
+

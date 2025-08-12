@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style */
+.pointer{
+    cursor: pointer;
+}
+.a-button{
+    text-decoration: none;
+    color: white;
+}
+/* HEADER */
+.header {
+    background: #00a0dc;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+.header .logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.header input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 20px;
+}
+.header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* PRODUCT */
+.product-container {
+    display: flex;
+    padding: 20px;
+    padding-top: 50px;
+}
+.product-image img {
+    max-width: 100%;
+}
+.product-details {
+    margin-left: 20px;
+}
+.price-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.price {
+    color: #00a0dc;
+    font-weight: bold;
+}
+.regular-price {
+    text-decoration: line-through;
+    color: gray;
+}
+.stock-status {
+    color: green;
+}
+.key-features {
+    margin-top: 10px;
+}
+.view-more {
+    color: #00a0dc;
+    text-decoration: none;
+}
+.quantity-section {
+    margin-top: 15px;
+}
+.quantity-section button {
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+.add-to-cart {
+    background: #00a0dc;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buy-now {
+    background: #008ECC;
+    color: white;
+    border: none;
+    padding: 12px 27px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* TABS */
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+.tabs button {
+    padding: 10px 20px;
+    border: none;
+    background: #f5f5f5;
+}
+.tabs .active {
+    background: #00a0dc;
+    color: white;
+}
+
+/* DESCRIPTION */
+.description {
+    padding: 20px;
+}
+.spec-list {
+    display: flex;
+    gap: 50px;
+}
+.spec-list h4 {
+    color: #00a0dc;
+}
+
+/* FOOTER */
+footer {
+    background: #00a0dc;
+    color: white;
+    padding: 20px;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-top li {
+    margin-bottom: 5px;
+}
