@@ -106,8 +106,15 @@ if (!$product) {
     // Handle form submit
     document.getElementById('checkoutForm').onsubmit = function(e) {
         e.preventDefault();
-        alert('Order placed successfully! (Demo only)');
-        window.location.href = 'index.php';
+        var name = this.fullname.value;
+        var email = this.email.value;
+        var address = this.address.value;
+        var phone = this.phone.value;
+        var qty = document.getElementById('qty').value;
+        var product = <?php echo json_encode($product['name']); ?>;
+        var total = document.getElementById('grandTotal').textContent.replace('$','');
+        var url = 'cheackoutconfirmation.php?name=' + encodeURIComponent(name) + '&email=' + encodeURIComponent(email) + '&address=' + encodeURIComponent(address) + '&phone=' + encodeURIComponent(phone) + '&product=' + encodeURIComponent(product) + '&qty=' + encodeURIComponent(qty) + '&total=' + encodeURIComponent(total);
+        window.location.href = url;
     };
     </script>
 </body>
