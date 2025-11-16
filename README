@@ -1,7 +1,19 @@
-Project Name: LapZone (an online laptop shop)
+💻 LapZone — Online Laptop Shop
 
-Team Members:
- 1. Abu Ubayda 231-115-080 (Design frontend in figma, do some coding, connect fronend with backend)
- 2. Nahidul Islam Rony 231-115-069 (create query in databases, connect fronend with backend)
- 3. Mahmudul Hasan Emon 231-115-347 (create php files and maintain each pages, connect fronend with backend)
- 4. Rijwan Hussain Saif 231-115-070 (testing and presentation)
+LapZone is a dynamic web-based application designed as part of a DBMS course project. It simulates an online laptop store with user authentication, product browsing, and purchase functionality — built using PHP, MySQL, and HTML/CSS.
+
+👥 Team Members
+
+| Name                    | ID          | Role & Contribution                                      |
+|-------------------------|-------------|----------------------------------------------------------|
+| Abu Ubayda              | 231-115-080 | Frontend design (Figma), coding, backend integration     |
+| Nahidul Islam Rony      | 231-115-069 | Database queries, backend integration                    |
+| Mahmudul Hasan Emon     | 231-115-347 | PHP development, page management, backend integration    |
+| Rijwan Hussain Saif     | 231-115-070 | Testing and presentation                                 |
+
+🛠️ Technologies Used
+
+- Frontend: HTML, CSS
+- **Backend**: PHP
+- **Database**: MySQL
+- **Design Tool**: Figma
